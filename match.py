@@ -21,13 +21,12 @@ import requests
 import math
 import teslapy
 import time
-import datetime
 import json
 
 with open("config.json") as infile:
     config = json.load(infile)
 
-homelate = config["homelat"]
+homelat = config["homelat"]
 homelong = config["homelong"]
 teslaemail = config["teslaemail"]
 apikey = config["apikey"]
